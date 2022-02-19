@@ -209,7 +209,6 @@ align-items: center;
     padding: 1%;
     float: right;
     color: var(--black-coffee);
-    vertical-align: -middle;
-
 }
 
+/*Center copyright and sm icons*/
