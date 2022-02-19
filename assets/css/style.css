@@ -1,3 +1,18 @@
+/*Generic stylings for all pages*/
+:root {
+    --black-coffee: #2e1f27;
+    --alloy-orange: #bc5f04;
+    --light-salmon: #f19c79;
+    --light-gr-yellow: #f6f4d2;
+    --tea-green: #cbdfbd;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .navbar {
     display:flex
     list-style: none;
