@@ -192,17 +192,18 @@ footer {
     width: 100%;
 }
 
-#copy-22{
+#copy-22 {
     text-align: center;
 }
 
 .sm-link .ms-3 {
-align-items: center;
+    align-items: center;
 }
 
 .sm-link i:hover {
     color: var(--light-salmon);
 }
+
 .sm-link i {
     font-size: 120%;
     margin: 1%;
@@ -212,3 +213,11 @@ align-items: center;
 }
 
 /*Center copyright and sm icons*/
+
+/*Gallery*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
