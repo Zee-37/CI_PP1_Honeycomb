@@ -13,12 +13,40 @@
     margin: 0;
 }
 
+
+/*Header stylings*/
+
 .navbar {
-    display:flex
+    display: flex;
     list-style: none;
+    background-color: var(--light-gr-yellow);
+    color: var(--black-coffee);
+    justify-content: space-around;
+    align-items: center;
 }
 
-.nav-list li {
-    align-self: center;
-    padding: 10px 15px;
+.navbar .mn-hdr {
+    font-size: 300%;
+    margin-left: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.navbar a {
+    color: var(--black-coffee);
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list a:hover {
+    color: var(--tea-green)
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 30px 10px;
 }
