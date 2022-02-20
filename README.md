@@ -77,3 +77,12 @@
 - I want users to be able to contact us
 - I want users to know about our extended hours
 - I want users to be able to enquire about venue bookings
+
+## Design
+
+### Design Choices
+The website was designed to have a uniform yet playful feel, with warm and rich block colours and accent colours dotted all over the web pages. This was done to portray the atmosphere that the user can expect when visiting the cafe.
+
+### Colour Scheme
+To choose a colour scheme, I used a coolors to generate a palette
+<!--Insert doc of color scheme screenshots-->
