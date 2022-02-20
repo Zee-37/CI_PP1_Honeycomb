@@ -403,3 +403,8 @@ textarea {
 }
 
 /*iFrame*/
+
+/*error 404*/
+#err-img-cont {
+    max-width: 500px;
+}
