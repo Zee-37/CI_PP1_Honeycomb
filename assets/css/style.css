@@ -13,18 +13,20 @@
     margin: 0;
 }
 
-h1 {
-    color: var(--light-gr-yellow);
-}
-
 h1,
 h2 {
     font-family: 'Tahoma', 'Verdana', 'Geneva', sans-serif;
+    color: var(--light-gr-yellow);
+    text-align: center;
 }
 
 h3,
 h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin-top: 10px;
+    color: var(--alloy-orange);
+    text-transform: uppercase;
+    text-align: center;
 }
 
 p {
@@ -226,12 +228,13 @@ footer {
     column-gap: 0px;
 }
 
+/*Contact main*/
+
 #contact-us {
     border: 1%;
-    margin: 1% 0;
+    margin: 1% 0 0 0;
     font-size: 250%;
     font-weight: 550;
-    text-align: center;
 }
 
 .content-cont {
@@ -245,13 +248,13 @@ footer {
 
 .content-cont .cont-img {
     padding-top: 0;
-    margin: 2%;
+    margin: 0 2%;
     float: left;
     width: 100%;
 }
 
 .content-cont .content-info {
-    padding-top: 30px;
+    padding-top: 10px;
     margin-left: 0;
     width: 100%;
     float: right;
@@ -267,14 +270,93 @@ footer {
 
 #cont-heads {
     font-weight: bolder;
-    color: var(--black-coffee);
-    text-align: center;
+    color: var(--light-salmon);
 }
 
 .list-unstyled li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+/*Contact form*/
+.contact-form {
+    box-sizing: content-box;
+    box-shadow: transparent;
+    position: static;
+    display: grid;
+    height: auto;
+    width: 100%;
+    min-height: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+}
+
+#form-text {
+    border-top: 2%;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 18px;
+    color: var(--light-gr-yellow);
+}
+
+input {
+    padding: 1px 3px;
+    text-rendering: auto;
+}
+
+textarea {
+    padding: 1px 3px;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-labels .labels {
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+
+#name {
+    margin: 0;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+    width: 95%;
+}
+
+#email {
+    margin: 0;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+    width: 95%;
+}
+
+#message {
+    width: 100%;
+    height: 100%;
+    color: #2e1f27;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+}
+
+.button {
+    width: 100%;
+    border: 2px 0;
+    border-color: var(--russet);
+    padding: 2px 1px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    background-color: var(--russet);
+    color: var(--light-gr-yellow);
+}
+
+.button:hover {
+    background-color: #246a73;
 }
 
 /*iFrame*/
