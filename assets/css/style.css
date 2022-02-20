@@ -13,7 +13,9 @@
     margin: 0;
 }
 
-h1 {color: var(--light-gr-yellow);}
+h1 {
+    color: var(--light-gr-yellow);
+}
 
 h1,
 h2 {
@@ -237,14 +239,38 @@ footer {
     flex-direction: row;
     margin: 0%;
     padding: 2%;
-    background-color: azure;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.content-cont .cont-img {
+    padding-top: 0;
+    margin: 2% ;
+    float: left;
+    width: 100%;
 }
 
 .content-cont .content-info {
     padding-top: 30px;
-    margin: 1%;
-    float: right;
+    margin: 0; 
     width: 100%;
+    float: right;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.content-cont .content-info h2,
+h3 {
+    font-weight: bolder;
+    color: var(--black-coffee);
+}
+
+#find-us {
+    border: 1%;
+    margin: 1% 0;
+    font-size: 150%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
 }
