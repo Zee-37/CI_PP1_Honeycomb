@@ -408,3 +408,9 @@ textarea {
 #err-img-cont {
     max-width: 500px;
 }
+
+.btn {
+display:block;
+text-decoration: none;
+
+}
