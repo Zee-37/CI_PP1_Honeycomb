@@ -344,15 +344,12 @@ textarea {
 
 .button {
     width: 100%;
-    border: 2px 0;
-    border-color: var(--russet);
-    padding: 2px 1px;
-    font-size: 1em;
-    cursor: pointer;
-    outline: none;
-    text-transform: uppercase;
+    border: 1px solid var(--russet);
     background-color: var(--russet);
     color: var(--light-gr-yellow);
+    font-size: 1em;
+    text-transform: uppercase;
+
 }
 
 .button:hover {
@@ -360,11 +357,3 @@ textarea {
 }
 
 /*iFrame*/
-#find-us {
-    border: 1%;
-    margin: 1% 0;
-    font-size: 150%;
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
-}
