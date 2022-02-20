@@ -86,3 +86,49 @@ The website was designed to have a uniform yet playful feel, with warm and rich 
 ### Colour Scheme
 To choose a colour scheme, I used a coolors to generate a palette
 <!--Insert doc of color scheme screenshots-->
+
+### Fonts
+I mostly used sans-serif font-families.
+
+### Structure
+The website consists of five separate pages: 
+- A homepage with a brief introduction section and two columned section of news about the cafe.
+- An about page with customer reviews and a section about the owners.
+- A menu page
+- A gallery with images showcasing the atmosphere of the cafe
+- A contact page with general information such as opening times and contact details; a contact form for enquiries; and an embedded map
+
+### Wireframes
+<details><summary>Home</summary>
+<img src="#">
+</details>
+<details><summary>About</summary>
+<img src="#">
+</details>
+<details><summary>Menu</summary>
+<img src="#">
+</details>
+<details><summary>Gallery</summary>
+<img src="#">
+</details>
+<details><summary>Contact</summary>
+<img src="#">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Balsamiq
+- Github
+- GitPod
+- VSCode
+- Bootsrap v5.1
+- Coolors
+- Font Awesome
+- Favicon
+
+## Features
