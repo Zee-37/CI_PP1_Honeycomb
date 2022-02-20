@@ -23,7 +23,7 @@
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
-5. 
+5. [Features](#features)
 
 ## Project Goals
 
