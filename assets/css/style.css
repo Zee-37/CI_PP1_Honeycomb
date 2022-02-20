@@ -221,7 +221,14 @@ footer {
 /*Center copyright and sm icons*/
 
 /*About*/
-
+.flex-container-ab {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 2%;
+    width: 100%;
+    align-items: flex-start;
+}
 
 /*Menu*/
 
