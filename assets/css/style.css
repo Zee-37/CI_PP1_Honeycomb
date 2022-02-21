@@ -34,38 +34,6 @@ p {
     line-height: 1.5em;
 }
 
-/* .aspect-ratio {
-    /* aspect-ratio custom properties */
-    /* The width portion of the aspect ratio, e.g. 16 in 16:9. */
-    --aspect-ratio-w: 1;
-    /* The height portion of the aspect ratio, e.g. 9 in 16:9. */
-    --aspect-ratio-h: 1;
-  
-    position: relative;
-  }
-  
-  .aspect-ratio > *:first-child {
-    width: 100%;
-  }
-  
-  @supports (--custom-props: "true") {
-    .aspect-ratio::before {
-      display: block;
-      padding-top: calc(var(--aspect-ratio-h, 1) /
-          var(--aspect-ratio-w, 1) * 100%);
-      content: "";
-    }
-  
-    .aspect-ratio > *:first-child {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-    }
-  } */
 /*Header stylings*/
 
 .navbar {
@@ -101,6 +69,8 @@ p {
 .nav-list .list-item {
     display: inline-block;
     padding: 30px 10px;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 body {
