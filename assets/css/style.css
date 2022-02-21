@@ -34,7 +34,7 @@ p {
     line-height: 1.5em;
 }
 
-.aspect-ratio {
+/* .aspect-ratio {
     /* aspect-ratio custom properties */
     /* The width portion of the aspect ratio, e.g. 16 in 16:9. */
     --aspect-ratio-w: 1;
@@ -65,7 +65,7 @@ p {
       height: 100%;
       width: 100%;
     }
-  }
+  } */
 /*Header stylings*/
 
 .navbar {
