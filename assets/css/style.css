@@ -45,7 +45,6 @@ p {
     display: flex;
     flex-direction: row;
     width: 100%;
-    color: var(--black-coffee);
 }
 
 .navbar-brand {
@@ -54,11 +53,15 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-style: italic;
     font-weight: bolder;
+}
+
+#tgl-icon {
     
+    color: azure;
+    flex-direction: column;
 }
 
 .navbar-nav .nav-link {
-    color: var(--black-coffee);
     text-decoration: none;
 }
 
