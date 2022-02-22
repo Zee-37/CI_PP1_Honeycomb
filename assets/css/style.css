@@ -5,6 +5,7 @@
     --light-salmon: #f19c79;
     --light-gr-yellow: #f6f4d2;
     --russet: #854d27;
+    --ming: #246a73;
 }
 
 * {
@@ -107,7 +108,7 @@ body {
 }
 
 hr {
-    border-top: 2px solid #f19c79;
+    border-top: 2px solid var(--light-salmon);
     width: 90%;
     margin: 5px 40px;
 }
@@ -145,7 +146,7 @@ hr {
 }
 
 .home-cont p a:hover {
-    color: #246a73;
+    color: var(--ming);
 }
 
 /*Footer*/
@@ -219,8 +220,6 @@ footer {
     padding: 1%;
     color: var(--black-coffee);
 }
-
-/*Center copyright and sm icons*/
 
 /*About*/
 
@@ -423,18 +422,25 @@ textarea {
 }
 
 .button:hover {
-    background-color: #246a73;
+    background-color: var(--ming);
 }
 
 /*iFrame*/
 
 /*error 404*/
+
 #err-img-cont {
     max-width: 500px;
+    padding-top: 3%;
 }
 
 .btn {
     display: block;
     text-decoration: none;
+    background-color: var(--ming);
+    border: none;
+}
 
+.btn:hover {
+    background-color: var(--light-salmon);
 }
