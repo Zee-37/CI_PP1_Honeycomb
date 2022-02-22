@@ -37,14 +37,13 @@ p {
 
 /*Header stylings*/
 
-.nv-bar {
-    color: var(--black-coffee);
-}
+
 .navbar {
     background-color: var(--light-gr-yellow);
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
 }
 
 .navbar-brand {
@@ -55,35 +54,20 @@ p {
     font-weight: bolder;
 }
 
-#tgl-icon {
-
-    color: azure;
-    flex-direction: column;
+.navbar .nav-item .nav-link.active {
+    color: var(--alloy-orange);
 }
 
-.navbar-nav .nav-link {
-    text-decoration: none;
+.navbar .nav-item .nav-link:hover {
+    color: var(--ming);
 }
 
 /*
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    background-color: var(--light-gr-yellow);
-    color: var(--black-coffee);
-    justify-content: space-between;
-    width: 100%;
+#tgl-icon {
+    flex-direction: column;
 }
 
-.nv-bar .navbar-brand {
-    font-size: 300%;
-    margin-left: 5%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    font-style: italic;
-    font-weight: bolder;
-}
+
 
 .navbar a {
     color: var(--black-coffee);
