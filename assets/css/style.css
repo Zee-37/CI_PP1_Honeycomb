@@ -14,6 +14,10 @@
     margin: 0;
 }
 
+body {
+    background-color: var(--alloy-orange);
+}
+
 h1,
 h2 {
     font-family: 'Tahoma', 'Verdana', 'Geneva', sans-serif;
@@ -35,6 +39,9 @@ p {
     line-height: 1.5em;
 }
 
+main {
+    flex: 1 0 auto
+}
 /*Header stylings*/
 
 
@@ -47,11 +54,15 @@ p {
 }
 
 .navbar-brand {
-    font-size: 300%;
+    font-size: 240%;
     margin-left: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-style: italic;
     font-weight: bolder;
+}
+
+.navbar .nav-link {
+align-content: flex-end;
 }
 
 .navbar .nav-item .nav-link.active {
@@ -61,39 +72,6 @@ p {
 .navbar .nav-item .nav-link:hover {
     color: var(--ming);
 }
-
-/*
-#tgl-icon {
-    flex-direction: column;
-}
-
-
-
-.navbar a {
-    color: var(--black-coffee);
-    text-decoration: none;
-}
-
-.nav-list {
-    list-style-type: none;
-}
-
-.nav-list a:hover {
-    color: var(--alloy-orange)
-}
-
-.nav-list .list-item {
-    display: inline-block;
-    padding: 30px 10px;
-    flex-direction: row;
-    align-items: flex-end;
-}
-*/
-
-body {
-    background-color: var(--alloy-orange);
-}
-
 
 /* home main content styling*/
 .home-box-1 {
@@ -459,3 +437,33 @@ textarea {
 .btn:hover {
     background-color: var(--light-salmon);
 }
+
+/* MEDIA QUERIES FOR SMALL TO MEDIUM SCREENS */
+@media screen and (max-width: 768px) {
+
+    #home-intro {
+        Font-size: 100%;}
+        
+        .home-cont {
+        Flex-direction: column;}
+        
+        .home-cont #home-box-left {
+            padding-top: 0;
+            margin: 1% 0;
+            width: 100%;
+        }
+        
+        .home-cont p {
+            margin: 5px 0;
+        }
+        
+        .home-cont #home-box-right {
+        margin: 1% 0;
+        width: 100%;
+        }
+        
+        hr {
+            width: 100%;
+            margin: 5px 0;
+        }
+    }
