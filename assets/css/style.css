@@ -44,8 +44,6 @@ p {
     color: var(--black-coffee);
     justify-content: space-between;
     width: 100%;
-    background-color: aqua;
-    /*align-items: center;*/
 }
 
 .navbar .mn-hdr {
