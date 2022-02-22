@@ -476,6 +476,9 @@ textarea {
         margin: 5px 0;
     }
 
+    .d-flex {
+        display: flex;
+    }
     .flex-row {
         flex-direction: column-reverse;
     }
@@ -485,12 +488,11 @@ textarea {
     }
 
     .text-start {
-        text-align: center;
+        align-items: center;
     }
 
     .ab-main {
         font-size: 100%;
-        text-size-adjust: 100%;
     }
 
     #reviews {
@@ -545,5 +547,6 @@ textarea {
     .content-cont cont-img {
         padding-top: 0;
         margin: 0;
-        width: 100%;}
+        width: 100%;
+    object-fit: cover;}
 }
