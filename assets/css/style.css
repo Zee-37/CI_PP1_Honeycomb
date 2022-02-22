@@ -37,6 +37,33 @@ p {
 
 /*Header stylings*/
 
+.nv-bar {
+    color: var(--black-coffee);
+}
+.navbar {
+    background-color: var(--light-gr-yellow);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: var(--black-coffee);
+}
+
+.navbar-brand {
+    font-size: 300%;
+    margin-left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+.navbar-nav .nav-link {
+    color: var(--black-coffee);
+    text-decoration: none;
+}
+
+/*
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -47,7 +74,7 @@ p {
     width: 100%;
 }
 
-.navbar .mn-hdr {
+.nv-bar .navbar-brand {
     font-size: 300%;
     margin-left: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
@@ -74,6 +101,7 @@ p {
     flex-direction: row;
     align-items: flex-end;
 }
+*/
 
 body {
     background-color: var(--alloy-orange);
