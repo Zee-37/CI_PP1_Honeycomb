@@ -38,16 +38,19 @@ p {
 
 .navbar {
     display: flex;
+    flex-direction: row;
     list-style: none;
     background-color: var(--light-gr-yellow);
     color: var(--black-coffee);
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+    /*align-items: center;*/
 }
 
 .navbar .mn-hdr {
     font-size: 300%;
-    margin-left: 0%;
+    margin-left: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-style: italic;
     font-weight: bolder;
