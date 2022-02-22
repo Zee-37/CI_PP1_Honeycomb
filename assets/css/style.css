@@ -220,7 +220,7 @@ footer {
 .ab-text {
     padding-top: 0px;
     margin: 1%;
-    float: left;
+    /*float: left;*/
     width: 100%;
     font-size: 2vw;
 }
@@ -236,6 +236,8 @@ footer {
     border: 2px 2px;
     color: var(--black-coffee);
 }
+
+.ab-img {height: 4vw;}
 
 br {
     border-top: 2%;
