@@ -108,27 +108,29 @@
                             below!
                         </p>
 
-                        <form action="https://formdump.codeinstitute.net" method="POST" class="contact-form">
-                            <div class="form-labels">
-                                <div class="labels">
-                                    <label for="name"></label>
-                                    <input type="text" name="name" id="name" placeholder="Name" required />
+                        <div class="form-sect">
+                            <form action="https://formdump.codeinstitute.net" method="POST">
+                                <div class="form-labels">
+                                    <div class="labels">
+                                        <label for="name"></label>
+                                        <input type="text" name="name" id="name" placeholder="Name" required />
 
+                                    </div>
+
+                                    <div class="labels">
+                                        <label for="email"></label>
+                                        <input type="text" name="email" id="email" placeholder="Email" required />
+                                    </div>
                                 </div>
 
-                                <div class="labels">
-                                    <label for="email"></label>
-                                    <input type="text" name="email" id="email" placeholder="Email" required />
+                                <div>
+                                    <textarea name="message" id="message" placeholder="Enter your message here..."
+                                        rows="17" cols="70"></textarea>
+                                    <input class="button" type="submit" value="Send">
+                                    <!-- button to fit box-->
                                 </div>
-                            </div>
-
-                            <div>
-                                <textarea name="message" id="message" placeholder="Enter your message here..." rows="17"
-                                    cols="70"></textarea>
-                                <input class="button" type="submit" value="Send">
-                                <!-- button to fit box-->
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -42,6 +42,7 @@ p {
 main {
     flex: 1 0 auto
 }
+
 /*Header stylings*/
 
 
@@ -62,7 +63,7 @@ main {
 }
 
 .navbar .nav-link {
-align-content: flex-end;
+    align-content: flex-end;
 }
 
 .navbar .nav-item .nav-link.active {
@@ -293,8 +294,8 @@ br {
 /*Contact main*/
 
 #contact-us {
-    border: 1%;
-    margin: 1% 0 0 0;
+    border: 1% 0;
+    margin: 2% 0;
     font-size: 250%;
     font-weight: 550;
 }
@@ -303,26 +304,28 @@ br {
     display: flex;
     flex-direction: row;
     margin: 0%;
-    padding: 2%;
+    padding: 0%;
     width: 100%;
     align-items: flex-start;
 }
 
 .content-cont .cont-img {
     padding-top: 0;
-    margin: 0 2%;
-    float: left;
+    margin: 0;
+    /*float: left;*/
     width: 100%;
+    height: fit-content;
+    object-fit: cover;
 }
 
 .content-cont .content-info {
     padding-top: 10px;
     margin-left: 0;
     width: 100%;
-    float: right;
+   /* float: right;*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .bsc-info {
@@ -345,7 +348,7 @@ br {
 .contact-form {
     box-sizing: content-box;
     box-shadow: transparent;
-    position: static;
+    position: relative;
     display: grid;
     height: auto;
     width: 100%;
@@ -376,27 +379,28 @@ textarea {
 }
 
 .form-labels .labels {
-    margin: 0;
+    margin: 3%;
     font-family: 'Helvetica', 'Arial', sans-serif;
     width: 100%;
     justify-content: center;
 }
 
 #name {
-    margin: 0;
+    margin-top: 0;
     border: var(--light-gr-yellow);
     background-color: var(--light-gr-yellow);
-    width: 95%;
+    width: 100%;
 }
 
 #email {
     margin: 0;
     border: var(--light-gr-yellow);
     background-color: var(--light-gr-yellow);
-    width: 95%;
+    width: 100%;
 }
 
 #message {
+    margin-top: 2%;
     width: 100%;
     height: 100%;
     color: #2e1f27;
@@ -439,31 +443,102 @@ textarea {
 }
 
 /* MEDIA QUERIES FOR SMALL TO MEDIUM SCREENS */
-@media screen and (min-width: 768px) {
-
+@media screen and (max-width: 768px) {
     #home-intro {
-        Font-size: 100%;}
-        
-        .home-cont {
-        Flex-direction: column;}
-        
-        .home-cont #home-box-left {
-            padding-top: 0;
-            margin: 1% 0;
-            width: 100%;
-        }
-        
-        .home-cont p {
-            margin: 5px 0;
-        }
-        
-        .home-cont #home-box-right {
+        Font-size: 100%;
+    }
+
+    .home-cont {
+        Flex-direction: column;
+    }
+
+    .home-cont #home-box-left {
+        padding-top: 0;
         margin: 1% 0;
         width: 100%;
-        }
-        
-        hr {
-            width: 100%;
-            margin: 5px 0;
-        }
     }
+
+    .home-cont p {
+        margin: 5px 0;
+    }
+
+    .home-cont #home-box-right {
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    hr {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .flex-row {
+        flex-direction: column-reverse;
+    }
+
+    .ab-text {
+        margin: auto
+    }
+
+    .text-start {
+        text-align: center;
+    }
+
+    .ab-main {
+        font-size: 100%;
+    }
+
+    #reviews {
+        font-size: 100%;
+    }
+
+    #menu-cnt {
+        Flex-direction: column;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    .content-cont {
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .content-cont .content-info {
+        padding-top: 10%;
+    }
+
+    .bsc-info {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .form-labels {
+        Flex-direction: column;
+    }
+
+    .form-labels .labels {
+        Margin: 10px 0
+    }
+
+    #message {
+        Height: revert;
+    }
+
+    iFrame {
+        padding: 10% 0
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-cont cont-img {
+        padding-top: 0;
+        margin: 0;
+        width: 100%;}
+}
