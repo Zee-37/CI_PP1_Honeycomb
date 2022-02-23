@@ -46,7 +46,7 @@ main {
 /*Header stylings*/
 
 
-.navbar {
+.nv-bar {
     background-color: var(--light-gr-yellow);
     display: flex;
     flex-direction: row;
@@ -60,6 +60,8 @@ main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     font-style: italic;
     font-weight: bolder;
+    color: var(--black-coffee);
+    background-color: var(--light-gr-yellow);
 }
 
 .navbar .nav-link {
@@ -117,15 +119,13 @@ hr {
 .home-cont #home-box-left {
     padding-top: 30px;
     margin: 1%;
-    float: left;
-    width: 100%;
+    width: fit-content;
 }
 
 .home-cont #home-box-right {
     padding-top: 30px;
     margin: 1%;
-    float: right;
-    width: 100%;
+    width: fit-content;
 }
 
 .home-cont p {
@@ -190,10 +190,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#lwr-ftr {
-    display: flex;
-    align-content: center;
-    width: 100%;
+
 }
 
 #copy-22 {
@@ -217,13 +214,21 @@ footer {
 
 /*About*/
 
+.container .ab-cont {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.col-12 {
+    margin-top: 3% 0;
+}
+
 .ab-text {
     padding-top: 0px;
-    margin: 1%;
-    /*float: left;*/
+    margin: 3% 0;
     width: 100%;
-    font-size: 2vw;
+    /*font-size: 120%;*/
 }
+
 
 #ab-head {
     margin-top: 1%;
@@ -233,11 +238,12 @@ footer {
 }
 
 #ab-main {
-    border: 2px 2px;
+    border: 2%;
     color: var(--black-coffee);
+    font-size: 100%;
 }
 
-.ab-img {height: 4vw;}
+/*.ab-img {height: 4vw;}*/
 
 br {
     border-top: 2%;
@@ -250,7 +256,7 @@ br {
 }
 
 .fs-5 {
-    border: 2%;
+    border: 2% 0;
     color: var(--light-gr-yellow);
     text-align: center;
     font-style: italic;
@@ -480,7 +486,7 @@ textarea {
         display: flex;
     }
     .flex-row {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .ab-text {
