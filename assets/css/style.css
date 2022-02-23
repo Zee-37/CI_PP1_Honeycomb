@@ -213,7 +213,7 @@ footer {
 }
 
 /*About*/
-
+/*
 .container .ab-cont {
     display: flex;
     flex-direction: row-reverse;
@@ -226,7 +226,7 @@ footer {
     padding-top: 0px;
     margin: 3% 0;
     width: 100%;
-    /*font-size: 120%;*/
+    /*font-size: 120%;
 }
 
 
@@ -242,8 +242,8 @@ footer {
     color: var(--black-coffee);
     font-size: 100%;
 }
-
-/*.ab-img {height: 4vw;}*/
+*/
+/*.ab-img {height: 4vw;}
 
 br {
     border-top: 2%;
@@ -266,6 +266,7 @@ br {
     width: 100%;
     height: 100%;
 }
+*/
 
 /*Menu*/
 
