@@ -86,7 +86,7 @@ The website was designed to have a uniform yet playful feel, with warm and rich 
 ### Colour Scheme
 To choose a colour scheme, I used a coolors to generate a palette
 <!--Insert doc of color scheme screenshots-->
-![Colour scheme](docs/features/colour-scheme.png)
+![Colour scheme](assets/docs/features/colour-scheme.jpg)
 
 ### Fonts
 I mostly used sans-serif font-families.
@@ -101,10 +101,10 @@ The website consists of five separate pages:
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="#">
+<img src="assets/docs/wireframes/home-wf.jpg">
 </details>
 <details><summary>About</summary>
-<img src="#">
+<img src="docs/wireframes/about-wf.jpg">
 </details>
 <details><summary>Menu</summary>
 <img src="#">
