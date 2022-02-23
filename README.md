@@ -101,19 +101,19 @@ The website consists of five separate pages:
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="assets/docs/wireframes/home-wf.jpg">
+<img src="/workspace/CI_PP1_Honeycomb/assets/docs/wireframes/home-wf.jpg">
 </details>
 <details><summary>About</summary>
-<img src="docs/wireframes/about-wf.jpg">
+<img src="/workspace/CI_PP1_Honeycomb/assets/docs/wireframes/about-wf.jpg">
 </details>
 <details><summary>Menu</summary>
-<img src="#">
+<img src="/workspace/CI_PP1_Honeycomb/assets/docs/wireframes/menu-wf.jpg">
 </details>
 <details><summary>Gallery</summary>
-<img src="#">
+<img src="/workspace/CI_PP1_Honeycomb/assets/docs/wireframes/gallery-wf.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="#">
+<img src="/workspace/CI_PP1_Honeycomb/assets/docs/wireframes/contact-wf.jpg">
 </details>
 
 ## Technologies Used
