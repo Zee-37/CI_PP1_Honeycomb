@@ -8,6 +8,10 @@
     --ming: #246a73;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -28,7 +32,6 @@ h2 {
 h3,
 h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-    margin-top: 10px;
     color: var(--alloy-orange);
     text-transform: uppercase;
     text-align: center;
@@ -37,6 +40,7 @@ h4 {
 p {
     font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
     line-height: 1.5em;
+    font-size: 1.6rem;
 }
 
 main {
@@ -64,6 +68,10 @@ main {
     background-color: var(--light-gr-yellow);
 }
 
+.nv-bar h2:hover {
+    color: var(--alloy-orange);
+}
+
 .navbar .nav-link {
     align-content: flex-end;
 }
@@ -78,8 +86,8 @@ main {
 
 /* home main content styling*/
 
-.main-image {
-    max-width: min-content;
+main .img1 {
+    max-width: 100%;
 }
 
 .home-box-1 {
