@@ -77,6 +77,11 @@ main {
 }
 
 /* home main content styling*/
+
+.main-image {
+    max-width: min-content;
+}
+
 .home-box-1 {
     margin: 3%;
     text-align: center;
