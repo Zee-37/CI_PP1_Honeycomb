@@ -250,7 +250,7 @@ footer {
     font-weight: bolder;
 }
 
-#ab-main {
+.ab-main {
     border: 2%;
     color: var(--black-coffee);
     font-size: 100%;
