@@ -149,7 +149,7 @@ footer {
 }
 
 /*HOME STYLINGS*/
-.img1 {
+.h-img1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -216,13 +216,31 @@ hr {
 
 .ab-cont {
     display: flex;
-    flex-direction: column-reverse;
-    background-color: aqua;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.ab-cont .ab-text {
+    font-size: 1.75rem;
+    text-align: center;
 }
 
 .ab-img {
-order: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
 }
+
+#reviews {
+    border-top: 5%;
+    border: dotted var(--light-salmon);
+    font-size: 100%;
+}
+
+.fs-5 {
+    border: 2% 0;
+    color: var(--light-gr-yellow);
 
 /*MENU*/
 #menu {
