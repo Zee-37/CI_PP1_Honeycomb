@@ -246,9 +246,12 @@ order: 1;
 #gallery {
     clear: both;
     line-height: 0;
-    column-count: 3;
+    column-count: 2;
     column-gap: 0px;
-    height: 33vh;
+}
+
+#gallery > img {
+    width: 100%;
 }
 
 /*CONTACT*/
@@ -270,6 +273,7 @@ order: 1;
 .content-cont .cont-img {
     position: relative;
     width: 100%;
+    align-content: center;
 }
 
 .cont-heads {
