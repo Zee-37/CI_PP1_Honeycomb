@@ -3,7 +3,7 @@
 
 <!--mock up image here-->
 
-[Live website] (https://zee-37.github.io/CI_PP1_Honeycomb/)
+[Live website](https://zee-37.github.io/CI_PP1_Honeycomb/)
 
 ## Table Of Content
 
@@ -12,7 +12,7 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requrements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -133,3 +133,51 @@ The website consists of five separate pages:
 - Favicon
 
 ## Features
+
+## Testing
+
+## Bugs
+
+## Deployment
+
+## Credits
+Images not referenced below are owned by the developer. 
+
+### Menu
+
+In order of appearance:
+- [img1](assets/images/img1.jpg): Photo by <a href="https://unsplash.com/photos/IkOXmuqeOZo">Abdalla M</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [img2](assets/images/img2.jpg): Photo by <a href="https://unsplash.com/photos/pe5D2RleK6E">Kike Salazar N</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [img3](assets/images/img3.jpg): Photo by <a href="https://unsplash.com/photos/21tOEaJPM_o">Sung Jin Cho</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [a-img1](assets/images/a-img1.jpg): Photo by <a href="https://unsplash.com/photos/_qADvinJi20">John Arano</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [a-img2](assets/images/a-img2.jpg): Photo by <a href="https://unsplash.com/photos/23KdVfc395A">Thought Catalog</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img1](assets/images/g-img1.jpg): Photo by <a href="https://unsplash.com/photos/71u2fOofI-U">
+Nathan Dumlao</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img2](assets/images/g-img2.jpg): Photo by <a href="https://unsplash.com/photos/aEiCpMq9fxU">
+Nick Fewings</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img3](assets/images/g-img3.jpg): Photo by <a href="https://unsplash.com/photos/pnkJ_5PDmKI">
+Kwon Junho</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img4](assets/images/g-img4.jpg): Photo by <a href="https://unsplash.com/photos/wm0BNnUfXmU">
+Kwon Junho</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img5](assets/images/g-img5.jpg): Photo by <a href="https://unsplash.com/photos/XPxWx8-Q49U">
+Alejandro Sotillet</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img6](assets/images/g-img6.jpg): Photo by <a href="https://unsplash.com/photos/cUFli52JBoo">
+Walter Lee Olivares de la Cruz</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img7](assets/images/g-img7.jpg): Photo by <a href="https://unsplash.com/photos/XdgC1Qo9uVc">
+Kwon Junho</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img8](assets/images/g-img8.jpg): Photo by <a href="https://unsplash.com/photos/lRc-HSvFqbY">
+Kwon Junho</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img9](assets/images/g-img9.jpg): Photo by <a href="https://unsplash.com/photos/nuyCCp8jleU">
+Brooke Cagle</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img10](assets/images/g-img10.jpg): Photo by <a href="https://unsplash.com/photos/4xWsYn3XtvQ">
+Maria Avdeeva</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img11](assets/images/g-img11.jpg): Photo by <a href="https://unsplash.com/photos/OxKFC5u0980">
+Sérgio Alves Santos</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img12](assets/images/g-img12.jpg): Photo by <a href="https://unsplash.com/photos/jODz47eM1w8">
+frank mckenna</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [g-img13](assets/images/g-img13.jpg): Photo by <a href="https://unsplash.com/photos/wiOEVPVRfW4">
+GC Libraries Creative Tech Lab</a> on <a href="https://unsplash.com/">Unsplash</a>
+- [c-img1](assets/images/c-img1.jpg): Photo by <a href="https://unsplash.com/photos/2AerW-ZnWCI">
+Hatfields London</a> on <a href="https://unsplash.com/">Unsplash</a>
+
+## Acknowledgements
