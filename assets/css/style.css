@@ -85,13 +85,6 @@ main {
     color: var(--alloy-orange);
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-}
-
 /*FOOTER*/
 footer {
     display: flex;
@@ -156,6 +149,13 @@ footer {
 }
 
 /*HOME STYLINGS*/
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
 .home-box-1 {
     margin: 0%;
     text-align: center;
@@ -228,9 +228,9 @@ order: 1;
 #menu {
     border: 1% 0;
     margin: 2% 0;
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: bolder;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.25rem;
     text-transform: uppercase;
 }
 
@@ -243,4 +243,119 @@ order: 1;
 }
 
 /*GALLERY*/
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+    height: 33vh;
+}
 
+/*CONTACT*/
+.contact-us h1 {
+    border: 1% 0;
+    margin: 2% 0;
+    font-size: 2.25rem;
+    font-weight: bolder;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+.content-cont {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content-cont .cont-img {
+    position: relative;
+    width: 100%;
+}
+
+.cont-heads {
+    font-weight: bolder;
+    color: var(--light-salmon);
+    font-size: 2rem;
+}
+
+.content-cont .content-info {
+    flex-direction: column;
+}
+.content-cont .content-info .bsc-info {
+    padding-top: 10px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.content-cont .content-info .contact-form {
+    display: flex;
+}
+
+#form-text {
+    border-top: 2%;
+    font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-size: 18px;
+    color: var(--light-gr-yellow);
+}
+
+input {
+    padding: 1px 3px;
+    text-rendering: auto;
+}
+
+textarea {
+    padding: 1px 3px;
+}
+
+.form-labels {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-labels .labels {
+    margin: 3%;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+
+#name {
+    margin-top: 0;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+    width: 100%;
+}
+
+#email {
+    margin: 0;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+    width: 100%;
+}
+
+#message {
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+    color: #2e1f27;
+    border: var(--light-gr-yellow);
+    background-color: var(--light-gr-yellow);
+}
+
+.button {
+    width: 100%;
+    border: 1px solid var(--russet);
+    background-color: var(--russet);
+    color: var(--light-gr-yellow);
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: var(--ming);
+}
+
+iFrame {
+    width: 100%;
+}
