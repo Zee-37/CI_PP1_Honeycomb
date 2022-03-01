@@ -95,9 +95,63 @@ img {
 /*FOOTER*/
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    color: var(--black-coffee);
+}
+
+.ftr-cont {
+    margin: 0;
+    background-color: var(--russet);
+    width: 100%;
+    position: relative;
+}
+
+.ft-row {
+    display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.ft-row ul {
+    list-style: none;
+    text-align: left;
+}
+
+.ftr-col {
+    width: 50%;
+    padding: 0;
+}
+
+.ftr-col h5 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.b-example-divider {
+    background-color: var(--alloy-orange);
+    border: solid var(--alloy-orange);
+    border-width: 1px 0;
+    margin-bottom: 2%;
+}
+
+#copy-22 {
+    text-align: center;
+}
+
+.sm-link .ms-3 {
     align-items: center;
+}
+
+.sm-link i:hover {
+    color: var(--light-salmon);
+}
+
+.sm-link i {
+    font-size: 120%;
+    margin: 1%;
+    padding: 1%;
     color: var(--black-coffee);
 }
 
