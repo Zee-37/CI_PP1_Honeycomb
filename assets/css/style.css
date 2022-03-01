@@ -218,10 +218,11 @@ hr {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: fit-content;
 }
 
 .ab-cont .ab-text {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -235,12 +236,13 @@ hr {
 #reviews {
     border-top: 5%;
     border: dotted var(--light-salmon);
-    font-size: 100%;
+    font-size: 2rem;
 }
 
 .fs-5 {
     border: 2% 0;
     color: var(--light-gr-yellow);
+}
 
 /*MENU*/
 #menu {
