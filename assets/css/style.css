@@ -250,6 +250,7 @@ hr {
     border: 2%;
     padding: auto;
     color: var(--light-gr-yellow);
+    text-align: center;
 }
 
 .owners-bio {
