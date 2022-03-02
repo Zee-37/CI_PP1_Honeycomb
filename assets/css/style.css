@@ -427,7 +427,7 @@ iFrame {
 }
 
 /* MEDIA QUERIES FOR SMALL TO MEDIUM SCREENS */
-@media (min-width: 576px) and (max-width: 1600px) {
+@media (min-width: 576px) and (max-width: 1800px) {
     .d-flex {
         display: flex;
         flex-wrap: nowrap;
