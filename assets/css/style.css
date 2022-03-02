@@ -284,7 +284,7 @@ hr {
     column-gap: 0px;
 }
 
-#gallery > img {
+#gallery>img {
     width: 100%;
 }
 
@@ -319,6 +319,7 @@ hr {
 .content-cont .content-info {
     flex-direction: column;
 }
+
 .content-cont .content-info .bsc-info {
     padding-top: 10px;
     margin-left: 0;
@@ -397,4 +398,35 @@ textarea {
 
 iFrame {
     width: 100%;
+}
+
+/*404 PAGE*/
+.err-img-cont {
+    max-width: 500px;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 3%;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    background-color: var(--ming);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--light-salmon);
+}
+
+/* MEDIA QUERIES FOR SMALL TO MEDIUM SCREENS */
+@media (min-width: 576px) and (max-width: 1200px){
+    .d-flex {flex-wrap: nowrap;
+            column-gap: 2%;
+            }
+    .home-img {
+        width: 100%;
+        height: 100%;
+    }
+
 }
