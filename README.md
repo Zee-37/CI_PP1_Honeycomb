@@ -86,7 +86,7 @@ The website was designed to have a uniform yet playful feel, with warm and rich 
 ### Colour Scheme
 To choose a colour scheme, I used a coolors to generate a palette
 <!--Insert doc of color scheme screenshots-->
-![Colour scheme](assets/docs/features/colour-scheme.jpg)
+![Colour scheme](docs/features/colour-scheme.jpg)
 
 ### Fonts
 I mostly used sans-serif font-families.
@@ -101,19 +101,22 @@ The website consists of five separate pages:
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="assets/docs/wireframes/home-wf.jpg">
+<img src="docs/wireframes/home-wf.jpg">
 </details>
 <details><summary>About</summary>
-<img src="assets/docs/wireframes/about-wf.jpg">
+<img src="docs/wireframes/about-wf.jpg">
 </details>
 <details><summary>Menu</summary>
-<img src="assets/docs/wireframes/menu-wf.jpg">
+<img src="docs/wireframes/menu-wf.jpg">
 </details>
 <details><summary>Gallery</summary>
-<img src="assets/docs/wireframes/gallery-wf.jpg">
+<img src="docs/wireframes/gallery-wf.jpg">
 </details>
 <details><summary>Contact</summary>
-<img src="assets/docs/wireframes/contact-wf.jpg">
+<img src="docs/wireframes/contact-wf.jpg">
+</details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404-wf.jpg">
 </details>
 
 ## Technologies Used
@@ -143,7 +146,7 @@ The website consists of five separate pages:
 ## Credits
 Images not referenced below are owned by the developer. 
 
-### Menu
+### Media
 
 In order of appearance:
 - [img1](assets/images/img1.jpg): Photo by <a href="https://unsplash.com/photos/IkOXmuqeOZo">Abdalla M</a> on <a href="https://unsplash.com/">Unsplash</a>
