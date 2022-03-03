@@ -211,16 +211,14 @@ hr {
 
 /*ABOUT*/
 .ab-head {
-    margin: 2% 0;
+    margin: 3% 0;
     font-style: italic;
     font-weight: bolder;
 }
 
 .ab-cont {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: fit-content;
+    flex-direction: row;
 }
 
 .ab-cont .ab-text {
@@ -229,29 +227,31 @@ hr {
     color: var(--black-coffee);
 }
 
+#reviews {
+    border: 2% 1%;
+    border: dotted var(--light-salmon);
+    justify-content: center;
+}
+
+.d-flex .fs-5 {
+    border: 2%;
+    font-size: 3rem;
+    padding: auto;
+    color: var(--light-gr-yellow);
+    text-align: center;
+}
+
 .ab-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-#reviews {
-    border-top: 5%;
-    border: dotted var(--light-salmon);
-    font-size: 2rem;
-}
-
-.fs-5 {
-    border: 2%;
-    padding: auto;
-    color: var(--light-gr-yellow);
-    text-align: center;
-}
-
 .owners-bio {
-    margin-top: 2%;
+    margin-top: 4%;
     font-size: 1.5rem;
     text-align: center;
+    line-height: 2.5rem;
     color: var(--black-coffee);
 }
 
