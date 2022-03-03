@@ -26,17 +26,13 @@ body {
     min-height: 100vh;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Tahoma', 'Verdana', 'Geneva', sans-serif;
     color: var(--light-gr-yellow);
     text-align: center;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3, h4, h5, h6 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     color: var(--alloy-orange);
     text-transform: uppercase;
@@ -54,7 +50,6 @@ main {
 }
 
 /*Header stylings*/
-
 .nv-bar {
     background-color: var(--light-gr-yellow);
     display: flex;
@@ -332,40 +327,37 @@ hr {
 .content-cont .content-info .bsc-info {
     padding-top: 10px;
     margin-left: 0;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 .content-cont .content-info .contact-form {
     display: flex;
-
 }
 
 #form-text {
     border-top: 2%;
     font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-    font-size: 18px;
+    font-size: 1.25rem;
     color: var(--light-gr-yellow);
+}
+
+.labels {
+    margin-top: 3%;
+font-size: 1.5rem;
+text-align: left;
+color: var(--light-gr-yellow);
+width: 100%;
 }
 
 input {
     padding: 1px 3px;
     text-rendering: auto;
+    font-size: 1.25rem;
 }
 
 textarea {
     padding: 1px 3px;
-}
-
-.form-labels {
-    display: flex;
-    flex-direction: row;
-}
-
-.form-labels .labels {
-    margin: 3%;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    width: 100%;
-    justify-content: center;
+    font-size: 1.25rem;
 }
 
 #name {
@@ -383,7 +375,7 @@ textarea {
 }
 
 #message {
-    margin-top: 2%;
+    margin-top: 0;
     width: 100%;
     height: 100%;
     color: #2e1f27;
@@ -393,6 +385,7 @@ textarea {
 
 .button {
     width: 100%;
+    height: 25px;
     border: 1px solid var(--russet);
     background-color: var(--russet);
     color: var(--light-gr-yellow);
@@ -405,6 +398,7 @@ textarea {
 }
 
 iFrame {
+    margin-top: 3%;
     width: 100%;
 }
 
@@ -461,5 +455,12 @@ iFrame {
         flex-wrap: nowrap;
         justify-content: space-around;
         text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 900px) {
+    .contact-form {
+        margin: 0 3%;
+        width: 90%;
     }
 }
