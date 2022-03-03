@@ -239,17 +239,20 @@ hr {
 }
 
 #reviews {
-    border: 2% 1%;
+    border: 1%;
     border: dotted var(--light-salmon);
     justify-content: center;
+    width: 100%;
+    display: flex;
+    column-gap: 0.5rem;
 }
 
 .d-flex .fs-5 {
-    border: 2%;
     font-size: 3rem;
-    padding: auto;
+    padding: 1%;
     color: var(--light-gr-yellow);
     text-align: center;
+    width: 25%;
 }
 
 .ab-img {
