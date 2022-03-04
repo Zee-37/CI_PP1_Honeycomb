@@ -2,7 +2,6 @@
 (Developer: Lateefat Babalola)
 
 ![Mockup image](docs/am-i-responsive.png)
-<!--mock up image here-->
 
 [Live website](https://zee-37.github.io/CI_PP1_Honeycomb/)
 
@@ -145,6 +144,71 @@ The website consists of five separate pages:
 - Favicon
 
 ## Features
+This website consists of five pages and nine features.
+
+### Logo and Responsive Navigation Bar
+- Featured on all pages, the navigation bar becomes a toggler on smaller screens.
+- The navbar includes fully functional links for the home, about, menu, gallery and contact pages. 
+- It allows for easy navigation through the website. 
+- The active page link is highlighted and a link that is hovered over is also highlighted in a different colour.
+- User stories covered: 2, 3, 10, 13
+
+![Logo and navbar](docs/features/ft-header.png)
+
+![Logo and navbar](docs/features/ft-header-toggle.png)
+
+### Homepage information
+- This section of the homepage contains news about the cafe that is meant to catch the user's attention such as the introduction of cocktails to the menu and venue for hire.
+- User stories covered: 8, 10, 14, 15
+
+![Homepage information](docs/features/ft-homepage-info.png)
+
+### Footer
+- Featured on all pages
+- Consists of three sections: contact information, opening hours and social media links.
+- User stories covered: 5, 7, 11, 12, 13
+
+![Footer](docs/features/ft-footer.png)
+
+![Social media icons](docs/features/ft-sm-icons.png)
+
+### Reviews
+- Highlighted on the about page
+- Contains reviews from previous customers
+- User stories covered: 4
+
+![Reviews](docs/features/ft-reviews.png)
+
+### Menu
+- Separated in two sections: drinks menu and food menu
+- Displays pricing of items
+- User stories covered: 1, 9
+
+![Menu](docs/features/ft-menu.png)
+
+### Gallery
+- Images portraying the atmosphere of the cafe displayed in columns
+- User stories covered: 3
+
+![Gallery](docs/features/ft-gallery.png)
+
+### Information
+- Provides necessary information for the cafe such as address, opening hours, email and phone number
+- User stories covered: 7, 11, 12, 13
+
+![Cafe Information](docs/features/ft-cafe-info.png)
+
+### Contact Form
+- Allows users to be able to leave reviews and enquire about venue hiring.
+- User stories covered: 6, 8, 15
+
+![Contact Form](docs/features/ft-contact-form.png)
+
+### Map
+- Google maps embedded on contact page to show cafe location
+- User stories covered: 8
+
+![Map](docs/features/ft-map.png)
 
 ## Validation
 
