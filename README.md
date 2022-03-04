@@ -76,15 +76,14 @@
 6. I want to leave a review 
 7. I want to find a phone number for reservations
 8. I want to hire the venue
-9. I want to see the menu
-10. I want to know more about the cafe
-11. I want to see opening and closing times
+9. I want to know more about the cafe
+10. I want to see opening and closing times
 
 #### Site owner
-12. I want users to see opening and closing times
-13. I want users to be able to contact us
-14. I want users to know about our extended hours
-15. I want users to be able to enquire about venue bookings
+11. I want users to see opening and closing times
+12. I want users to be able to contact us
+13. I want users to know about our extended hours
+14. I want users to be able to enquire about venue bookings
 
 ## Design
 
@@ -288,33 +287,106 @@ The website was tested on the following browsers:
 
 1. I want to know the price on the menu
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Menu | Go to menu page from navbar | See price range | works as expected |
+<!--add screenshots-->
+
 2. I want to know where the menu is located
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Navbar | Go to navbar and click menu link | menu page will display | works as expected |
+<!--add screenshots-->
 
 3. I want to be able to visualise what it would be like to visit the cafe
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Gallery | Go to navbar and click gallery link | images showcasing the cafe will appear | works as expected |
+<!--add screenshots-->
+
 4. I want to know about previous customers’ experiences.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Reviews | Select about from navbar | reviews visible in section section of about page| works as expected |
+<!--add screenshots-->
 
 5. I want to find the business on social media
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Footer | Clink on social media links in footer | social media page to open in new tab| works as expected |
+<!--add screenshots-->
+
 6. I want to leave a review
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Contact Form | enter name, email and message in form and press send | message will be sent to server | works as expected |
+| Information | navigate to contact page | find email address | works as expected |
+<!--add screenshots-->
 
 7. I want to find a phone number for reservations
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Footer | Scroll to footer | Find phone number in contact information | works as expected |
+| Information | navigate to contact page | find phone number | works as expected |
+<!--add screenshots-->
+
 8. I want to hire the venue
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Homepage information | Go to "venue for hire" section and clink "contact us" link | Takes user to contact page with enquiry form | works as expected |
+<!--add screenshots-->
 
-9. I want to see the menu
+9. I want to know more about the cafe
 
-10. I want to know more about the cafe
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Homepage information | locate text areas | information provided about services offered | works as expected |
+| About page | go to about in navbar | read description of cafe as well as reviews from customers | works as expected |
+<!--add screenshots-->
 
-11. I want to see opening and closing times
+10. I want to see opening and closing times
 
-12. I want users to see opening and closing times
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Footer | scroll down to footer | opening hours information provided | works as expected |
+| Information | go to contact page in navbar | locate opening hours on page | works as expected |
+<!--add screenshots-->
 
-13. I want users to be able to contact us
+11. I want users to see opening and closing times
 
-14. I want users to know about our extended hours
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Footer | scroll down to footer | opening hours information provided | works as expected |
+| Information | go to contact page in navbar | locate opening hours on page | works as expected |
+<!--add screenshots-->
 
-15. I want users to be able to enquire about venue bookings
+
+12. I want users to be able to contact us
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Footer | scroll down to footer | find phone number | works as expected |
+| Contact page | go to contact page in navbar and locate contact| locate phone number, email, address and contact form | works as expected |
+<!--add screenshots-->
+
+13. I want users to be able to locate the cafe
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Map | go to contact page from navbar and scroll to end of page | find embedded map with address | works as expected |
+<!--add screenshots-->
+
+14. I want users to be able to enquire about venue bookings
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| Contact form | Scroll to form section on contact page | Find form for enquiry | works as expected |
+<!--add screenshots-->
+
 
 ## Bugs
 
