@@ -337,6 +337,7 @@ The website was tested on the following browsers:
 <!--add screenshots-->
 
 8. I want to hire the venue
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Homepage information | Go to "venue for hire" section and clink "contact us" link | Takes user to contact page with enquiry form | works as expected |
