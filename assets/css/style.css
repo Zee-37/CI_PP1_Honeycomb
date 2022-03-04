@@ -57,6 +57,7 @@ main {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    font-size: 1.5rem;
 }
 
 .navbar-brand {
@@ -87,6 +88,7 @@ footer {
     align-items: flex-start;
     color: var(--black-coffee);
     margin-top: 2%;
+    font-size: 1.25rem;
 }
 
 .ftr-cont {
