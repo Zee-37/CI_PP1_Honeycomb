@@ -254,7 +254,70 @@ WAVE Web Accessibility Evaluation Tool was used to validate the accessibility of
 <img src="docs/validation/accessibility-contact.png">
 </details>
 
+### Performance
+Google chrome's Lighthouse in Chrome Developer's Tools was used to test the performance of the site.
+<details><summary>Home</summary>
+<img src="docs/validation/lh-performance-home.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lh-performance-about.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/lh-performance-menu.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/lh-performance-gallery.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lh-performance-contact.png">
+</details>
+
+### Device Testing
+Website was tested on the following devices:
+- Laptop: MacBook Air
+- Mobile: Galaxy Z Flip 3, iPhone 8 Plus
+- Tablet: iPad 7th generation
+
+### Browser Compatibility
+The website was tested on the following browsers:
+- Safari
+- Google Chrome
+- Microsoft Edge
+
+### Testing User Stories
+
+1. I want to know the price on the menu
+
+2. I want to know where the menu is located
+
+3. I want to be able to visualise what it would be like to visit the cafe
+
+4. I want to know about previous customers’ experiences.
+
+5. I want to find the business on social media
+
+6. I want to leave a review
+
+7. I want to find a phone number for reservations
+
+8. I want to hire the venue
+
+9. I want to see the menu
+
+10. I want to know more about the cafe
+
+11. I want to see opening and closing times
+
+12. I want users to see opening and closing times
+
+13. I want users to be able to contact us
+
+14. I want users to know about our extended hours
+
+15. I want users to be able to enquire about venue bookings
+
 ## Bugs
+- Toggle bar would not expand on menu page - script blocking rendering removed
 
 ## Deployment
 
