@@ -317,7 +317,14 @@ The website was tested on the following browsers:
 15. I want users to be able to enquire about venue bookings
 
 ## Bugs
-- Toggle bar would not expand on menu page - script blocking rendering removed
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Toggle bar would not expand on menu page| script blocking rendering removed |
+| images appearing as their original size, too big on small screens| targeted in css with object-fit |
+| Contact form sticking to image on medium screens | added flex attributes to position properly and media queries to set specific rules for different screens |
+| form label input not aligned with textarea | same width given in css |
+| social media icons not showing on contact page footer | font awesome script labeled correctly|
 
 ## Deployment
 
