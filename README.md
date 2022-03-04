@@ -95,7 +95,7 @@ The website was designed to have a uniform yet playful feel, with warm and rich 
 ### Colour Scheme
 To choose a colour scheme, I used a coolors to generate a palette
 <!--Insert doc of color scheme screenshots-->
-![Colour scheme](docs/features/colour-scheme.jpg)
+![Colour scheme](docs/features/colour-scheme.png)
 
 ### Fonts
 I mostly used web safe sans-serif font-families and serif fonts for the paragraphs.
