@@ -16,7 +16,7 @@
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour Scheme](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -93,7 +93,7 @@ The website was designed to have a uniform yet playful feel, with warm and rich 
 
 ### Colour Scheme
 To choose a colour scheme, I used a coolors to generate a palette
-<!--Insert doc of color scheme screenshots-->
+
 ![Colour scheme](docs/features/colour-scheme.png)
 
 ### Fonts
@@ -215,21 +215,44 @@ This website consists of five pages and nine features.
 ### HTML
 The W3C Markup Validation Service was used to validate HTML, no errors found on all pages.
 <details><summary>Home</summary>
-<img src="docs/validation/html-home-val.png">
+<img src="docs/validation/val-html-home.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/html-about-val.png">
+<img src="docs/validation/val-html-about.png">
 </details>
 <details><summary>Menu</summary>
-<img src="docs/validation/html-menu-val.png">
+<img src="docs/validation/val-html-menu.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/html-gallery-val.png">
+<img src="docs/validation/val-html-gallery.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/html-contact-val.png">
+<img src="docs/validation/val-html-contact.png">
 </details>
 
+### CSS
+W3C Jigsaw CSS Validation Service was used to validate css style sheet. Errors found relating to root variables.
+<details><summary>style.css</summary>
+<img src="docs/validation/val-css.png">
+</details>
+
+### Accessibility
+WAVE Web Accessibility Evaluation Tool was used to validate the accessibility of the site. Initially, the website displayed contrast errors, primarily between text colour and background colour. CSS was editted to meet validation criteria.
+<details><summary>Home</summary>
+<img src="docs/validation/accessibility-home.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/accessibility-about.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/accessibility-menu.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/accessibility-gallery.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/accessibility-contact.png">
+</details>
 
 ## Bugs
 
