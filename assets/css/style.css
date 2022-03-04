@@ -6,6 +6,7 @@
     --gold-crayola: #e7bc85;
     --light-gr-yellow: #f6f4d2;
     --russet: #854d27;
+    --kobe: #942911;
     --ming: #246a73;
 }
 
@@ -72,11 +73,11 @@ main {
 }
 
 .navbar .nav-item .nav-link:hover {
-    color: var(--russet);
+    color: var(--light-gr-yellow);
 }
 
 .navbar .nav-item .nav-link.active {
-    color: var(--ming);
+    color: var(--kobe);
 }
 
 /*FOOTER*/
@@ -114,6 +115,7 @@ footer {
 
 .ftr-col h5 {
     font-size: 1.5rem;
+    color: var(--kobe);
     text-align: left;
 }
 
@@ -133,7 +135,7 @@ footer {
 }
 
 .sm-link i:hover {
-    color: var(--ming);
+    color: var(--kobe);
 }
 
 .sm-link i {
@@ -245,6 +247,7 @@ hr {
 
 #reviews {
     border: 1%;
+    background-color: var(--gold-crayola);
     border: dotted var(--russet);
     justify-content: center;
     width: 100%;
@@ -254,7 +257,9 @@ hr {
 
 .d-flex .fs-5 {
     padding: 1%;
-    color: var(--light-gr-yellow);
+    color: var(--kobe);
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
     text-align: center;
     width: 25%;
 }
@@ -408,13 +413,13 @@ textarea {
     height: 30px;
     border: 1px solid var(--gold-crayola);
     background-color: var(--gold-crayola);
-    color: var(--russet);
+    color: var(--black-coffee);
     font-size: 1.25em;
     text-transform: uppercase;
 }
 
 .button:hover {
-    background-color: var(--ming);
+    background-color: var(--kobe);
 }
 
 iFrame {
@@ -438,7 +443,7 @@ iFrame {
 }
 
 .btn:hover {
-    background-color: var(--light-salmon);
+    background-color: var(--kobe);
 }
 
 /* MEDIA QUERIES FOR SMALL TO MEDIUM SCREENS */
