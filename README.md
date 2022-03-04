@@ -401,6 +401,24 @@ The website was tested on the following browsers:
 | social media icons not showing on contact page footer | font awesome script labeled correctly|
 
 ## Deployment
+Website was deployed using the following steps:
+1. Go to settings tab in the GitHub repository
+2. From the menu on the left, select 'Pages'
+3. Select 'Branch: main'
+4. Weboage will refresh with the message "Your site is published at https://zee-37.github.io/CI_PP1_Honeycomb/" highlighted in green
+
+To fork this repository:
+1. Go to repository
+2. Click the fork button in the upper right corner of page
+
+To clone repository:
+1. Go to repository
+2. Select the 'code' button above the list of files
+3. Choose between HTTPS, SSH, or GitHub CLI and copy URL.
+4. Open Git Bash
+5. Change current working directory to cloned directory
+6. Enter 'git clone' and past URL ($ git clone https://github.com/username/repository)
+7. Press 'enter' and create cloned repository.
 
 ## Credits
 Images not referenced below are owned by the developer. 
