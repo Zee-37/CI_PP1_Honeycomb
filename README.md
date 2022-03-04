@@ -376,12 +376,14 @@ The website was tested on the following browsers:
 <!--add screenshots-->
 
 13. I want users to be able to locate the cafe
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Map | go to contact page from navbar and scroll to end of page | find embedded map with address | works as expected |
 <!--add screenshots-->
 
 14. I want users to be able to enquire about venue bookings
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Contact form | Scroll to form section on contact page | Find form for enquiry | works as expected |
