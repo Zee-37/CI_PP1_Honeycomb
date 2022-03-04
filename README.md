@@ -1,7 +1,7 @@
 # Honeycomb
 (Developer: Lateefat Babalola)
 
-![Mockup image](docs/am-i-responsive.jpg)
+![Mockup image](docs/am-i-responsive.png)
 <!--mock up image here-->
 
 [Live website](https://zee-37.github.io/CI_PP1_Honeycomb/)
