@@ -3,7 +3,7 @@
 :root {
     --black-coffee: #2e1f27;
     --alloy-orange: #bc5f04;
-    --light-salmon: #f19c79;
+    --gold-crayola: #e7bc85;
     --light-gr-yellow: #f6f4d2;
     --russet: #854d27;
     --ming: #246a73;
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-color: var(--alloy-orange);
+    background-color: var(--black-coffee);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -51,7 +51,7 @@ main {
 
 /*Header stylings*/
 .nv-bar {
-    background-color: var(--light-gr-yellow);
+    background-color: var(--gold-crayola);
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -65,7 +65,6 @@ main {
     font-style: italic;
     font-weight: bolder;
     color: var(--black-coffee);
-    background-color: var(--light-gr-yellow);
 }
 
 .navbar-brand:hover {
@@ -73,11 +72,11 @@ main {
 }
 
 .navbar .nav-item .nav-link:hover {
-    color: var(--ming);
+    color: var(--russet);
 }
 
 .navbar .nav-item .nav-link.active {
-    color: var(--alloy-orange);
+    color: var(--ming);
 }
 
 /*FOOTER*/
@@ -86,11 +85,12 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     color: var(--black-coffee);
+    margin-top: 2%;
 }
 
 .ftr-cont {
     margin: 0;
-    background-color: var(--russet);
+    background-color: var(--gold-crayola);
     width: 100%;
     position: relative;
 }
@@ -118,8 +118,8 @@ footer {
 }
 
 .b-example-divider {
-    background-color: var(--alloy-orange);
-    border: solid var(--alloy-orange);
+    background-color: var(--black-coffee);
+    border: solid var(--black-coffee);
     border-width: 1px 0;
     margin-bottom: 2%;
 }
@@ -133,7 +133,7 @@ footer {
 }
 
 .sm-link i:hover {
-    color: var(--light-salmon);
+    color: var(--ming);
 }
 
 .sm-link i {
@@ -164,32 +164,35 @@ footer {
 }
 
 #home-tag {
+    margin-top: 2%;
     font-weight: bold;
     font-size: 2.5rem;
     padding: 10px 0px;
 }
 
 #home-intro {
-    margin-top: 2%;
+    margin: 2%;
     font-size: 1.75rem;
-    color: var(--light-salmon);
+    color: var(--gold-crayola);
 }
 
 .home-cont {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0%;
+    margin: 0 3%;
     padding: 1% 0;
     background-color: var(--light-gr-yellow);
 }
 
 .home-cont .sub-head h3 {
+    color: var(--russet);
+    font-weight: bolder;
     margin-top: 3%;
 }
 
 hr {
-    border-top: 2px solid var(--light-salmon);
+    border-top: 2px solid var(--alloy-orange);
     width: 90%;
     margin-left: 5%;
 }
@@ -202,11 +205,11 @@ hr {
 
 .home-cont p a {
     text-decoration: none;
-    color: var(--alloy-orange);
+    color: var(--ming);
 }
 
 .home-cont p a:hover {
-    color: var(--ming);
+    color: var(--alloy-orange);
 }
 
 /*ABOUT*/
@@ -214,6 +217,8 @@ hr {
     margin: 3% 0;
     font-style: italic;
     font-weight: bolder;
+    font-size: 2.5rem;
+
 }
 
 .ab-cont {
@@ -235,12 +240,12 @@ hr {
 .ab-cont .ab-text {
     font-size: 1.5rem;
     text-align: center;
-    color: var(--black-coffee);
+    color: var(--gold-crayola);
 }
 
 #reviews {
     border: 1%;
-    border: dotted var(--light-salmon);
+    border: dotted var(--russet);
     justify-content: center;
     width: 100%;
     display: flex;
@@ -248,7 +253,6 @@ hr {
 }
 
 .d-flex .fs-5 {
-    font-size: 3rem;
     padding: 1%;
     color: var(--light-gr-yellow);
     text-align: center;
@@ -266,14 +270,14 @@ hr {
     font-size: 1.5rem;
     text-align: center;
     line-height: 2.5rem;
-    color: var(--black-coffee);
+    color: var(--gold-crayola);
 }
 
 /*MENU*/
 #menu {
     border: 1% 0;
     margin: 2% 0;
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: bolder;
     letter-spacing: 0.25rem;
     text-transform: uppercase;
@@ -281,10 +285,10 @@ hr {
 
 .menu-heads {
     text-transform: uppercase;
-    border: double var(--light-salmon);
+    border: double var(--alloy-orange);
     padding: 1% 0;
     letter-spacing: 1.5px;
-    color: var(--black-coffee);
+    color: var(--gold-crayola);
 }
 
 .menu-img {
@@ -310,7 +314,7 @@ hr {
 .contact-us h1 {
     border: 1% 0;
     margin: 2% 0;
-    font-size: 2.25rem;
+    font-size: 3rem;
     font-weight: bolder;
     letter-spacing: 0.25rem;
     text-transform: uppercase;
@@ -321,18 +325,21 @@ hr {
     flex-wrap: wrap;
     width: 100%;
     text-align: center;
+    color: var(--light-gr-yellow);
+    font-size: 1.5rem;
 }
 
 .content-cont .cont-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-bottom: 4%;
 }
 
 .cont-heads {
     font-weight: bolder;
-    color: var(--light-salmon);
-    font-size: 2rem;
+    color: var(--gold-crayola);
+    font-size: 2.5rem;
 }
 
 .content-cont .content-info {
@@ -342,7 +349,6 @@ hr {
 .content-cont .content-info .bsc-info {
     padding-top: 10px;
     margin-left: 0;
-    font-size: 1.75rem;
 }
 
 .content-cont .content-info .contact-form {
@@ -352,15 +358,15 @@ hr {
 #form-text {
     border-top: 2%;
     font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
-    font-size: 1.25rem;
-    color: var(--light-gr-yellow);
+    font-size: 1.5rem;
+    color: var(--gold-crayola);
 }
 
 .labels {
     margin-top: 3%;
 font-size: 1.5rem;
 text-align: left;
-color: var(--light-gr-yellow);
+color: var(--gold-crayola);
 width: 100%;
 }
 
@@ -393,18 +399,17 @@ textarea {
     margin-top: 0;
     width: 100%;
     height: 100%;
-    color: #2e1f27;
     border: var(--light-gr-yellow);
     background-color: var(--light-gr-yellow);
 }
 
 .button {
     width: 100%;
-    height: 25px;
-    border: 1px solid var(--russet);
-    background-color: var(--russet);
-    color: var(--light-gr-yellow);
-    font-size: 1em;
+    height: 30px;
+    border: 1px solid var(--gold-crayola);
+    background-color: var(--gold-crayola);
+    color: var(--russet);
+    font-size: 1.25em;
     text-transform: uppercase;
 }
 
