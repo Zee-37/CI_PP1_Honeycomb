@@ -25,6 +25,14 @@
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
+6. [Validation](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#testing-on-different-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
 
 ## Project Goals
 
@@ -90,7 +98,7 @@ To choose a colour scheme, I used a coolors to generate a palette
 ![Colour scheme](docs/features/colour-scheme.jpg)
 
 ### Fonts
-I mostly used sans-serif font-families.
+I mostly used web safe sans-serif font-families and serif fonts for the paragraphs.
 
 ### Structure
 The website consists of five separate pages: 
@@ -138,7 +146,26 @@ The website consists of five separate pages:
 
 ## Features
 
-## Testing
+## Validation
+
+### HTML
+The W3C Markup Validation Service was used to validate HTML, no errors found on all pages.
+<details><summary>Home</summary>
+<img src="docs/validation/html-home-val.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/html-about-val.png">
+</details>
+<details><summary>Menu</summary>
+<img src="docs/validation/html-menu-val.png">
+</details>
+<details><summary>Gallery</summary>
+<img src="docs/validation/html-gallery-val.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/html-contact-val.png">
+</details>
+
 
 ## Bugs
 
