@@ -517,5 +517,5 @@ Hatfields London</a> on <a href="https://unsplash.com/">Unsplash</a>
 ## Acknowledgements
 I would like to thank:
 - My friends for always being supportive
-- My mentor, Mo Shami
+- My mentor, Mo Shami, for his guidance
 - The tutors here at Code Institute for their patience
