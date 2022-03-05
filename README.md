@@ -290,35 +290,50 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Menu | Go to menu page from navbar | See price range | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-1.png">
+</details>
 
 2. I want to know where the menu is located
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Navbar | Go to navbar and click menu link | menu page will display | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-2.png">
+</details>
 
 3. I want to be able to visualise what it would be like to visit the cafe
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Gallery | Go to navbar and click gallery link | images showcasing the cafe will appear | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-3.png">
+</details>
 
 4. I want to know about previous customers’ experiences.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Reviews | Select about from navbar | reviews visible in section section of about page| works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-4.png">
+</details>
 
 5. I want to find the business on social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Footer | Clink on social media links in footer | social media page to open in new tab| works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-5.png">
+</details>
 
 6. I want to leave a review
 
@@ -326,7 +341,10 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Contact Form | enter name, email and message in form and press send | message will be sent to server | works as expected |
 | Information | navigate to contact page | find email address | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-6.png">
+</details>
 
 7. I want to find a phone number for reservations
 
@@ -334,14 +352,21 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Footer | Scroll to footer | Find phone number in contact information | works as expected |
 | Information | navigate to contact page | find phone number | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-7a.png">
+<img src="docs/user-stories-testing/user-stories-7b.png">
+</details>
 
 8. I want to hire the venue
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Homepage information | Go to "venue for hire" section and clink "contact us" link | Takes user to contact page with enquiry form | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-8.png">
+</details>
 
 9. I want to know more about the cafe
 
@@ -349,7 +374,11 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Homepage information | locate text areas | information provided about services offered | works as expected |
 | About page | go to about in navbar | read description of cafe as well as reviews from customers | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-9a.png">
+<img src="docs/user-stories-testing/user-stories-9b.png">
+</details>
 
 10. I want to see opening and closing times
 
@@ -357,7 +386,11 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Footer | scroll down to footer | opening hours information provided | works as expected |
 | Information | go to contact page in navbar | locate opening hours on page | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-10a.png">
+<img src="docs/user-stories-testing/user-stories-10b.png">
+</details>
 
 11. I want users to see opening and closing times
 
@@ -365,8 +398,11 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Footer | scroll down to footer | opening hours information provided | works as expected |
 | Information | go to contact page in navbar | locate opening hours on page | works as expected |
-<!--add screenshots-->
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-10a.png">
+<img src="docs/user-stories-testing/user-stories-10b.png">
+</details>
 
 12. I want users to be able to contact us
 
@@ -374,22 +410,31 @@ The website was tested on the following browsers:
 | ----------- | ---------- | ----------- | -----------|
 | Footer | scroll down to footer | find phone number | works as expected |
 | Contact page | go to contact page in navbar and locate contact| locate phone number, email, address and contact form | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-12a.png">
+<img src="docs/user-stories-testing/user-stories-12b.png">
+</details>
 
 13. I want users to be able to locate the cafe
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Map | go to contact page from navbar and scroll to end of page | find embedded map with address | works as expected |
-<!--add screenshots-->
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-13.png">
+</details>
 
 14. I want users to be able to enquire about venue bookings
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 | ----------- | ---------- | ----------- | -----------|
 | Contact form | Scroll to form section on contact page | Find form for enquiry | works as expected |
-<!--add screenshots-->
 
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-14.png">
+</details>
 
 ## Bugs
 
