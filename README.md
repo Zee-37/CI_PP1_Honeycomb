@@ -232,6 +232,9 @@ The W3C Markup Validation Service was used to validate HTML, no errors found on 
 <details><summary>Contact</summary>
 <img src="docs/validation/val-html-contact.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/val-html-404.png">
+</details>
 
 ### CSS
 W3C Jigsaw CSS Validation Service was used to validate css style sheet. Errors found relating to root variables.
@@ -256,6 +259,9 @@ WAVE Web Accessibility Evaluation Tool was used to validate the accessibility of
 <details><summary>Contact</summary>
 <img src="docs/validation/accessibility-contact.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/validation/accessibility-404.png">
+</details>
 
 ### Performance
 Google chrome's Lighthouse in Chrome Developer's Tools was used to test the performance of the site.
@@ -273,6 +279,9 @@ Google chrome's Lighthouse in Chrome Developer's Tools was used to test the perf
 </details>
 <details><summary>Contact</summary>
 <img src="docs/validation/lh-performance-contact.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/lh-performance-404.png">
 </details>
 
 ### Device Testing

@@ -237,9 +237,9 @@ hr {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1 * var(— -bs-gutter-y));
-    margin-right: calc(-.5 * var(- -bs-gutter-x));
-    margin-left: calc(-.5 * var(- -bs-gutter-x));
+    margin-top: calc(-1 * var(—-bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
 }
 
 .ab-cont .ab-text {
@@ -249,7 +249,7 @@ hr {
 }
 
 #reviews {
-    border: 1%;
+    margin: 1%;
     background-color: var(--gold-crayola);
     border: dotted var(--russet);
     justify-content: center;
@@ -283,7 +283,6 @@ hr {
 
 /*MENU*/
 #menu {
-    border: 1% 0;
     margin: 2% 0;
     font-size: 3rem;
     font-weight: bolder;
@@ -320,7 +319,6 @@ hr {
 
 /*CONTACT*/
 .contact-us h1 {
-    border: 1% 0;
     margin: 2% 0;
     font-weight: bolder;
     letter-spacing: 0.25rem;
@@ -363,7 +361,7 @@ hr {
 }
 
 #form-text {
-    border-top: 2%;
+    margin-top: 2%;
     font-family: 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     font-size: 1.5rem;
     color: var(--gold-crayola);
