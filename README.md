@@ -32,6 +32,10 @@
     5. [Device testing](#testing-on-different-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
+7. [Bugs](#Bugs)
+8. [Deployment](#deployment)
+9. [Credits](#credits)
+10. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -469,7 +473,7 @@ To clone repository:
 ## Credits
 Images not referenced below are owned by the developer. 
 
-### Media
+### Images
 
 In order of appearance:
 - [img1](assets/images/img1.jpg): Photo by <a href="https://unsplash.com/photos/IkOXmuqeOZo">Abdalla M</a> on <a href="https://unsplash.com/">Unsplash</a>
@@ -506,4 +510,12 @@ GC Libraries Creative Tech Lab</a> on <a href="https://unsplash.com/">Unsplash</
 - [c-img1](assets/images/c-img1.jpg): Photo by <a href="https://unsplash.com/photos/2AerW-ZnWCI">
 Hatfields London</a> on <a href="https://unsplash.com/">Unsplash</a>
 
+### Code
+- Responsive Navbar HTML [Navbar with toggler](https://getbootstrap.com/docs/5.1/components/navbar/#toggler) was taken from Bootstrap v5.1 documentation.
+- Footer HTML [footer with divider](https://getbootstrap.com/docs/5.1/examples/footers/) was taken from Bootstrap v5.1 example documentation.
+
 ## Acknowledgements
+I would like to thank:
+- My friends for always being supportive
+- My mentor, Mo Shami
+- The tutors here at Code Institute for their patience
