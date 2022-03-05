@@ -88,6 +88,7 @@
 12. I want users to be able to contact us
 13. I want users to know about our extended hours
 14. I want users to be able to enquire about venue bookings
+15. I want users to be able to return to the homepage from a broken page
 
 ## Design
 
@@ -448,6 +449,16 @@ The website was tested on the following browsers:
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-stories-testing/user-stories-14.png">
+</details>
+
+15. I want to be able to return to the homepage from a broken page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+| ----------- | ---------- | ----------- | -----------|
+| 404 page | Click on 'return to homepage' button on error page | Link will return user back to web homepage | works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-stories-testing/user-stories-15.png">
 </details>
 
 ## Bugs
