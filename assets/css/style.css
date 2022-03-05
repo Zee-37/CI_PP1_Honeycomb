@@ -116,6 +116,7 @@ footer {
 }
 
 .ftr-col h5 {
+    padding-left: 2%;
     font-size: 1.5rem;
     color: var(--kobe);
     text-align: left;
