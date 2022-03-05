@@ -239,7 +239,8 @@ The W3C Markup Validation Service was used to validate HTML, no errors found on 
 ### CSS
 W3C Jigsaw CSS Validation Service was used to validate css style sheet. Errors found relating to root variables.
 <details><summary>style.css</summary>
-<img src="docs/validation/val-css.png">
+<img src="docs/validation/val-css-input.png">
+<img src="docs/validation/val-css-input.png">
 </details>
 
 ### Accessibility
